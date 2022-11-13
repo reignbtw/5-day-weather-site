@@ -1,0 +1,101 @@
+/* GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3fffd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+textarea {
+    background: transparent;
+    color: transparent;
+    border: none;
+    resize: none;
+    color: black;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
+/* Classes */
+.jumbotron {
+    text-align: center;
+    background-color: #92dbd6;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+}
+
+.description {
+    white-space: pre-wrap;
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+.time-block {
+    align-self: center;
+    height: 100%;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+}
+
+.hour {
+    background-color: #d2ecff;
+    color: black;
+    border-top: 1px dashed black;
+}
+
+.past {
+    background-color: #3978a5;
+    color: black;
+}
+
+.present {
+    background-color: #71fffa;
+    color: black;
+}
+
+.future {
+    background-color: #59fa59;
+    color: black;
+}
+
+.save-btn {
+    border: 0;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #b440fc;
+    color: white;
+}
+
+.save-btn:focus {
+    outline: none;
+}
+
+.save-btn span:hover {
+    font-size: 20px;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+#footer {
+    background-color: #f112b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px black groove;
+    height: 50px;
+    color: white;
+}
